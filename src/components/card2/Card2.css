@@ -1,0 +1,70 @@
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: linear-gradient(107deg, #FFF 0%, #D9D9D9 103.94%);
+    top: 60%;
+    box-shadow: 10px 11px 62px rgba(0, 0, 0, 0.19);
+    left: 18%;
+    width: 28rem;
+    height: 15.5rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+    position: absolute;
+}
+
+#blackline {
+    height: 3rem;
+    background-color: black;
+}
+
+.cvv {
+    width: 22.56rem;
+    background-color: #ADB6BF;
+    border-radius: 4px;
+    align-self: center;
+    text-align: end;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.line1,
+.line2,
+.line3 {
+    display: flex;
+    gap: 1rem;
+}
+
+.linea {
+    width: 7.1rem;
+    height: 4.5px;
+    background-color: #AEB5BD;
+    border-radius: 4px;
+}
+
+.lineb {
+    width: 1.33rem;
+    height: 4.5px;
+    border-radius: 4px;
+    background-color: #AEB5BD;
+}
+
+.linec {
+    width: 0.56rem;
+    border-radius: 4px;
+    height: 4.5px;
+    background-color: #AEB5BD;
+}
+
+#cvv {
+    color: white;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+}

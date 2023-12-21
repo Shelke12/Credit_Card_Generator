@@ -1,0 +1,130 @@
+.container {
+    top: 15%;
+    left: 10%;
+    width: 28rem;
+    height: 15.5rem;
+    border-radius: 0.8rem;
+    background: linear-gradient(128deg, #6641f9 15%, rgba(108, 0, 128, 1) 45%, #6328C0 63.11%, #5b0893 98%);
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.clr1 {
+    position: relative;
+    background-color: #5E90E6;
+    height: 10rem;
+    width: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: rotate(135deg);
+    bottom: -35%;
+    left: 20%;
+    filter: blur(90px);
+    z-index: 1;
+}
+
+.clr3 {
+    height: 6rem;
+    width: 12rem;
+    transform: rotate(135deg);
+    border-radius: 50%;
+    position: relative;
+    top: -170%;
+    left: 15%;
+    filter: blur(70px);
+    z-index: 1;
+    background-color: rgb(248, 72, 248);
+}
+
+.clr2 {
+    height: 15rem;
+    width: 15rem;
+    transform: rotate(135deg);
+    border-radius: 50%;
+    position: relative;
+    top: -100%;
+    left: 50%;
+    filter: blur(90px);
+    background-color: rgb(255, 103, 38);
+}
+
+.background {
+    position: absolute;
+    width: 28rem;
+    box-sizing: border-box;
+    height: 15.5rem;
+}
+
+.cardDetail {
+    position: relative;
+}
+
+.cardNum {
+    font-family: 'Inter', sans-serif;
+}
+
+.circle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    gap: 0.8rem;
+}
+
+.circle1 {
+    width: 2.5rem;
+    position: relative;
+    height: 2.5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle2 {
+    width: 1.2rem;
+    position: relative;
+    height: 1.2rem;
+    border: 3px solid white;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.detail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    z-index: 3;
+}
+
+#number {
+    font-size: 1.8rem;
+    position: relative;
+    letter-spacing: 4.6px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    z-index: 3;
+}
+
+.name {
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: 0.9rem;
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.date {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
